@@ -32,13 +32,10 @@ jobs:
 #          mvn test
       - name: Compile
         run : mvn compile --file pom.xml
-<<<<<<< HEAD
+
 #      - name: Deploy
 #        run: mvn deploy --file pom.xml
-=======
-#       - name: Deploy
-#         run: mvn deploy --file pom.xml
->>>>>>> 2f3ce6dab1406c206ba80fdce0fec6b7c654e668
+
 #    steps:
 #      - uses: actions/checkout@v2
 #      - name: Set up JDK 1.8
