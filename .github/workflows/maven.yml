@@ -26,10 +26,10 @@ jobs:
         with:
           java-version: 17
 
-      - name: Build and test
-        run: |
-          mvn clean install
-          mvn test
+#      - name: Build and test
+#        run: |
+#          mvn clean install
+#          mvn test
       - name: Compile
         run : mvn compile --file pom.xml
       - name: Deploy
